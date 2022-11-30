@@ -1,0 +1,102 @@
+@font-face {
+  src: url("CursedTimerULiL.ttf");
+  font-family: "Cursed Timer ULiL";
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  background-color: #047857;
+  border-radius: 6px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: #fff;
+  margin: 70px 0 20px;
+  text-align: center;
+}
+
+.points-cell {
+  width: 155px;
+  height: 120px;
+  background-color: #ecfdf5;
+  border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+.points {
+  width: 117px;
+  height: 120px;
+  margin: 0 auto;
+  color: #f43f5e;
+  font-family: "Cursed Timer ULiL";
+  font-size: 90px;
+  line-height: 135px;
+  text-align: center;
+}
+
+.add-points {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-points button {
+  width: 45px;
+  height: 45px;
+  border: 3px solid #d97706;
+  border-radius: 4px;
+  font-family: "Cursed Timer ULiL";
+  color: #d97706;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.add-points button:hover {
+  background-color: #fef3c7;
+}
+
+.add-points button:active {
+  transform: scale(0.98);
+}
+
+.new-game {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.new-game button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  border-style: none;
+  box-shadow: 0 0 5px #000;
+  border-radius: 4px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  background-color: #f43f5e;
+}
+
+.new-game button:hover {
+  background-color: #fb7185;
+}
+
+.new-game button:active {
+  transform: scale(0.98);
+}
+
+.winner {
+  background-color: #fff1f2;
+  box-shadow: 0 0 10px #000;
+}
